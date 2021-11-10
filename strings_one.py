@@ -6,16 +6,25 @@ def half_slice(word):
 
 
 def no_first_last(str):
-    nofirst=str[1:]
-    nolast=str[:-1]
-    return nofirst,nolast
+    return str[1:-1]
 
 
 def longest(phrase):
-    pass
+    length = 0
+    list = phrase.split(" ")
+    for x in range(len(list)):
+        if len(list[x]) > length:
+            length = len(list[x])
+    return length
+
+
+
 
 
 def title_case(sentence):
-    pass
+    list = sentence.split(" ")
+    for word in sentence (len(list)):
+
+    return sentence
 
 

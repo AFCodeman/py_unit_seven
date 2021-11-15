@@ -1,28 +1,30 @@
 import math
 
-
+alpha = str("abcdefghijklmnopqrstuvwxyz")
+list = []
 
 def main():
-    alpha = "abcdefghijklmnopqrstuvwxyz"
-    list = []
-    key = int(input("Please assign a value to the key."))
     opt = str(input("Press e to encode, press d to decode, and press q to quit."))
+    word= str(input("Enter text to be encoded or decoded: "))
+    key = int(input("Assign a value to the key:"))
     if opt == "e":
-        encode(key)
+        print(encode(key, word))
     elif opt == "d":
-        decode(key)
+        print(decode(key, word))
     elif opt=="q":
         print("Your encryption has finished. Good luck!")
 
 
-def encode(key):
-    for letter in word(len(word)):
-        alpha[letter] = alpha.index[letter+key]
+def encode(key, word):
+    long = len(word.index())
+    for letter in word(len(long)):
+        new = int(alpha.index([letter+key])
+        list.append(alpha[new])
     return list
 
 
 
-def decode (key):
+def decode (key, word):
     pass
 
 

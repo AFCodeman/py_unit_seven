@@ -10,7 +10,7 @@ class MyTestCase(unittest.TestCase):
         self.assertEqual("wcescjdpek", assignment_seven.encode("hello world", "python"))
 
     def test_option_three(self):
-        pass
+        self.assertEqual("bgdtc",assignment_seven.encode("zebra", 3))
 
 
 

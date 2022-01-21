@@ -14,7 +14,7 @@ def main():
         print("Your encryption has finished. Good luck!")
 
 
-def encode(word, key):
+def encode(key, word):
     alpha = str("abcdefghijklmnopqrstuvwxyz")
     blank = ""
     for letter in word:
